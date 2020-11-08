@@ -1,0 +1,49 @@
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.navList {
+max-width: 100%;
+max-height: 100px;
+background-color: rgb(17, 17, 17);
+padding: 10px;
+}
+
+.liList {
+display: flex;
+justify-content: space-between;
+}
+
+.name {
+font-family: "Courier New", Courier, monospace;
+color: white;
+font-size: 40px;
+margin: 0;
+padding-right: 200px;
+}
+
+.list {
+font-size: 40px;
+color: white;
+font-family: sans-serif;
+list-style-type: none;
+}
+
+.btn {
+padding-left: 170px;
+padding-right: 40px;
+}
+
+.btn_cont {
+border: 2px solid white;
+background-color: rgb(17, 17, 17);
+color: white;
+padding: 15px;
+border-radius: 5px;
+font-size: 20px;
+
+padding-left: 25px;
+padding-right: 25px;
+}
